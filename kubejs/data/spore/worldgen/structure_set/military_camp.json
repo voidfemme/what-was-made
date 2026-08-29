@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 5435346,
+    "separation": 28,
+    "spacing": 48
+  },
+  "structures": [
+    {
+      "structure": "spore:military_camp",
+      "weight": 1
+    }
+  ]
+}

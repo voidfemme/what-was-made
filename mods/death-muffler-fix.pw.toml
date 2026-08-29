@@ -1,0 +1,13 @@
+name = "Death Muffler Fix"
+filename = "death_muffler_fix-1.0.1-Forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4b635fdd918b1b59369f3568683f97240dab3c4b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8685585
+project-id = 1589560

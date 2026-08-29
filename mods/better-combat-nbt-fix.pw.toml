@@ -1,0 +1,21 @@
+filename = 'bc_nbt_fix-1.0-forge.jar'
+name = 'Better Combat NBT fix'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18', '1.18.1', '1.18.2', '1.19', '1.19.1', '1.19.2', '1.19.3', '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0'
+
+[download]
+hash = 'dfc46f2fb7ae2c1cad19b9c7bd7996086dec5995ca6aefbcd5dfc3ae684b35a0920528c4997bf6609082bd47b3231c1219f064b7f32c83cb1febe54962abbefa'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/DlXDh6l5/versions/M8WYBukg/bc_nbt_fix-1.0-forge.jar'
+
+[update.modrinth]
+mod-id = 'DlXDh6l5'
+version = 'M8WYBukg'
+
+[[x-prismlauncher-dependencies]]
+addonId = '5sy6g3kz'
+type = 'REQUIRED'

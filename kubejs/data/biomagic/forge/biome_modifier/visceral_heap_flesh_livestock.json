@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "biomesoplenty:visceral_heap",
+  "spawners": [
+    { "type": "biomancy:flesh_cow",     "weight": 400, "minCount": 4, "maxCount": 6 },
+    { "type": "biomancy:flesh_pig",     "weight": 20,  "minCount": 2, "maxCount": 4 },
+    { "type": "biomancy:flesh_sheep",   "weight": 18,  "minCount": 2, "maxCount": 3 },
+    { "type": "biomancy:flesh_chicken", "weight": 14,  "minCount": 2, "maxCount": 4 }
+  ]
+}

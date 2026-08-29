@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 218493434,
+    "separation": 28,
+    "spacing": 48
+  },
+  "structures": [
+    {
+      "structure": "spore:celltower",
+      "weight": 1
+    }
+  ]
+}

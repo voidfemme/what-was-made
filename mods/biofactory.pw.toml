@@ -1,0 +1,29 @@
+filename = 'biofactory-forge-1.20.1-0.6.0.jar'
+name = 'Create: Bio-Factory'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.6.0'
+
+[download]
+hash = 'ea8f25740864431f0d65fdcdaaaaa1e2ac897a266b9b5a1ca34cc11d72602d2b4c35b4f3240f823c83c0426fa02d7f470806bb99df0a1e9d5c3d7219ec88ebdc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gBUkmmra/versions/mGOqbT2H/biofactory-forge-1.20.1-0.6.0.jar'
+
+[update.modrinth]
+mod-id = 'gBUkmmra'
+version = 'mGOqbT2H'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'uAAuyU4M'
+type = 'REQUIRED'

@@ -1,0 +1,18 @@
+filename = 'CyclopsCore-1.20.1-1.22.2.jar'
+name = 'Cyclops Core'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20.1-1.22.2'
+
+[download]
+hash = '10d2472715c5235d29b03768ab1e8f812b79b60b64e11e243bb8f3e32112fed5485ac1f23986cc1040a4e06301c63766ed92824235f91bc0f4119e4e3e0aef77'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Z9DM0LJ4/versions/4YEZz421/CyclopsCore-1.20.1-1.22.2.jar'
+
+[update.modrinth]
+mod-id = 'Z9DM0LJ4'
+version = '4YEZz421'

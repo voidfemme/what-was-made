@@ -1,0 +1,18 @@
+filename = 'sons_of_sins-2.2.1-forge-1.20.1.jar'
+name = 'Sons of Sins'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.2.1'
+
+[download]
+hash = '441221e63db847f3d13d97c2c1097b3b15bdae0bb8474c892cd176b7ab7333b6a1dfc03e9f641e1279b4c890d11deca3704dd59c705ff1d1cc61dc09df86ffa0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/l7YxzukZ/versions/nTyGeqcX/sons_of_sins-2.2.1-forge-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'l7YxzukZ'
+version = 'nTyGeqcX'

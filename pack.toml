@@ -1,0 +1,16 @@
+name = "Bio Magic"
+author = "voidfemme"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "c0d85409746b9a330a3865c06198273ec86247a78fe4eb1e32fe01a7626157c5"
+
+[versions]
+forge = "47.4.10"
+minecraft = "1.20.1"
+
+[options]
+no-internal-hashes = true

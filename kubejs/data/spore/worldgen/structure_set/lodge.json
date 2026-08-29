@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 8945665,
+    "separation": 28,
+    "spacing": 48
+  },
+  "structures": [
+    {
+      "structure": "spore:lodge",
+      "weight": 1
+    }
+  ]
+}

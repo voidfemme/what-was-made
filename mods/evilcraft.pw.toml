@@ -1,0 +1,21 @@
+filename = 'EvilCraft-1.20.1-1.3.1.jar'
+name = 'EvilCraft'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20.1-1.3.1'
+
+[download]
+hash = 'f6d015270b45f368d10180b5f1ff87ba7ab14da8940663db09679b2788bb6556a5765460d6dbd07c87f6fef3806a0ef128ff85f8ec805604cc821f6094a90efa'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/3ANq2btA/versions/BOeKQX6o/EvilCraft-1.20.1-1.3.1.jar'
+
+[update.modrinth]
+mod-id = '3ANq2btA'
+version = 'BOeKQX6o'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Z9DM0LJ4'
+type = 'REQUIRED'

@@ -1,0 +1,21 @@
+filename = 'lostcities-1.20-7.5.2.jar'
+name = 'The Lost Cities'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20-7.5.2'
+
+[download]
+hash = '616cf96f0fc60a7bec83d529f450db4dcc9138a485fe37723a0fde6e4ab2b287b9da341a487499beba7cecd56906e5467fa78f2569717f6382738a83348f17e2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/8VDCUS3b/versions/utEaPn7L/lostcities-1.20-7.5.2.jar'
+
+[update.modrinth]
+mod-id = '8VDCUS3b'
+version = 'utEaPn7L'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Eyw0UxEx'
+type = 'OPTIONAL'

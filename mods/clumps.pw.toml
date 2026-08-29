@@ -1,0 +1,18 @@
+filename = 'Clumps-forge-1.20.1-12.0.0.4.jar'
+name = 'Clumps'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '12.0.0.4'
+
+[download]
+hash = 'ffd8ff2438e9f9d260d3926ccdd0cccc4772c6f99f29715690aed4f6e97a76035f3aeaa78168e2a458bc4cccf521e97ebdb6e0b61c819facb04af9ebb3638383'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Wnxd13zP/versions/nAHGB5ls/Clumps-forge-1.20.1-12.0.0.4.jar'
+
+[update.modrinth]
+mod-id = 'Wnxd13zP'
+version = 'nAHGB5ls'

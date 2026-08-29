@@ -1,0 +1,30 @@
+# Bio-Magic — Alex's Mobs, mosquito removal
+#
+# Not a complete config file. Boot once, let Forge generate
+# config/alexsmobs.toml, then change these two keys.
+
+# Default 12. Zero stops crimson mosquitoes generating naturally anywhere.
+# The larva is still obtainable through the Bio-Forge recipe in
+# kubejs/server_scripts/biomagic_mosquito.js, so nothing is lost from the
+# mod — the mob just stops being something that happens TO you.
+crimsonMosquitoSpawnWeight = 0
+
+# Default 1. Redundant once weight is 0, but zeroed as well so that a future
+# config reset or mod update that restores the weight doesn't quietly bring
+# them back at full strength.
+crimsonMosquitoSpawnRolls = 0
+
+# Two related knobs, left alone but worth knowing about:
+#
+#   crimsonMosquitoTransformation / the "extra mobs that trigger a warped
+#   mosco" list  -- controls Warped Mosco conversion. Independent of spawning,
+#   so a manufactured mosquito can still become one.
+#
+#   Mosquito Repellent (effect + stew) is still craftable and still works.
+#   If you ever want mosquitoes back but survivable, that's the softer option
+#   than re-enabling spawns.
+#
+# Alex's Mobs also routes spawns through Citadel's biome config, which writes
+# a per-mob JSON under config/alexsmobs/biome/. Zeroing the weight above is
+# sufficient; editing the biome list there is only needed if you later want
+# mosquitoes in SOME places rather than none.

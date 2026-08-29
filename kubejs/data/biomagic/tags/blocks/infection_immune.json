@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:logs",
+    "#minecraft:leaves",
+    "#minecraft:saplings",
+    "#minecraft:flowers",
+    "#minecraft:crops",
+    "#minecraft:wool",
+    "#minecraft:wool_carpets",
+    "#minecraft:base_stone_overworld",
+    "#minecraft:base_stone_nether",
+    {
+      "id": "#forge:ores",
+      "required": false
+    },
+    {
+      "id": "#forge:storage_blocks",
+      "required": false
+    },
+    {
+      "id": "#botania:mystical_flowers",
+      "required": false
+    },
+    {
+      "id": "#botania:special_flowers",
+      "required": false
+    },
+    "minecraft:water",
+    "minecraft:obsidian",
+    "minecraft:bedrock"
+  ]
+}

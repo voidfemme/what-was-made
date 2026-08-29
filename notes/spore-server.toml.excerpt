@@ -1,0 +1,138 @@
+# Bio-Magic — spore-server.toml, the keys that matter
+#
+# This is NOT a complete config file. spore-server.toml is ~600 keys and Forge
+# will generate the whole thing on first launch. These are the ~30 keys that
+# control pacing rather than individual mob stats. Boot once, let Spore write
+# the file, then change these.
+#
+# The design this reflects: the infection is SPATIAL, not temporal. It is
+# ferocious where it lives and absent where it doesn't. Nothing here nerfs how
+# dangerous the infected are — global damage/health/armor stay at 1.0 on
+# purpose. What changes is reach, spread rate, and how fast the macro ladder
+# climbs on its own without a player feeding it.
+
+[Global_Variables]
+    # Left at default. The infected should stay lethal; the whole point of the
+    # spatial approach is that you never have to make them weak.
+    global_damage = 1.0
+    global_health = 1.0
+    global_armor = 1.0
+
+    # Default 1. Raising this means the world-state flip needs several
+    # hiveminds, not one. This is the single biggest "stop the runaway" knob.
+    proto_spawn_world_mod = 4
+
+    # Default true. Keeping the hivemind underground means it doesn't announce
+    # itself across the skyline the moment it forms — you find it by going in.
+    teleport_hive = false
+
+    # Chunk-loading calamities is how a distant infection keeps growing while
+    # you're nowhere near it. Off means the infection only advances where a
+    # player actually is.
+    calamity_chunk = false
+
+[Mobs.Mound]
+    # Mounds are the spread engine. Their radius grows as they age, so the
+    # ranges are the real leash. Defaults roughly double at each age step;
+    # these keep late-age mounds from swallowing a whole district.
+    mound_cooldown = 240
+    mound_age = 2400
+    mound_range_default = 6
+    mound_range_age2 = 10
+    mound_range_age3 = 14
+    mound_range_age4 = 20
+
+    # Foliage spread is the visual creep across terrain. Off keeps the
+    # infection inside buildings, which is where the block tags put it anyway.
+    mound_foliage = false
+
+    # Default true. Mounds staying where they're summoned keeps infection in
+    # basements and interiors rather than popping onto rooftops.
+    surface_mound = false
+
+[Mobs.Proto_Hivemind]
+    # Default 3.0%. Lowering this means a hivemind forms because the player
+    # has been fighting hard in one place, not because time passed.
+    proto_calamity = 1.0
+    proto_range = 96
+    proto_chunk = false
+    proto_raid = true
+    proto_raid_chance = 1.5
+
+    # Wall of flesh around the hivemind: keep this on. It makes the hivemind
+    # read as a place you assault rather than a mob you bump into.
+    proto_casing = true
+    proto_madness = true
+
+[Mobs.Hivetumor]
+    # Default 1200s to regrow. Doubling it gives a player time to clear a
+    # district and actually hold it before the tumor comes back.
+    htumor_timer = 3600
+
+[Mobs.Womb]
+    # The calamity economy. Biomass accrues on a clock AND from assimilating
+    # infected, so slowing the clock while keeping assimilation high means
+    # calamities appear because the infection has been winning fights — not
+    # because the world has been loaded a long time.
+    recontructor_clock = 1200
+    reconstructor_assimilation = 4
+    reconstructor_biomass = 400
+
+[Spawns]
+    # Biome tag whitelist. Default is minecraft:is_overworld, i.e. everywhere.
+    # There is no vanilla tag for "Lost Cities city chunk", so this cannot be
+    # narrowed to cities directly — the block-conversion tags in
+    # kubejs/data/biomagic/tags/blocks/ do that job instead. What this CAN do
+    # is keep the infection out of biomes where it makes no sense.
+    dimension_parameters = ["minecraft:is_overworld"]
+    dimension_blacklist = ["forge:is_cold", "minecraft:deep_dark", "minecraft:is_ocean"]
+
+    # Default false. Keeping daytime spawns off means daylight is a real
+    # tactical resource, which gives Botania's and Hex's mobility tools an
+    # obvious job.
+    daytime_spawn = false
+
+[Spawns.MobCap]
+    # Caps are per-area, not global. Lower basic caps with unchanged evolved
+    # caps means fewer, nastier encounters instead of a wall of bodies —
+    # better for a pack where every fight should be worth the mana you spend.
+    max_infected_cap = 24
+    max_evolved_cap = 10
+    max_hyper_cap = 4
+    max_organoid_cap = 6
+    max_scent_cap = 8
+
+[Evolutions]
+    # Timers are seconds. Defaults are 300 / 600 with 1 and 7 kills.
+    #
+    # Raising the kill floors is the important half: evolution should be
+    # earned by the infection actually beating something, not by the clock.
+    # Raising min_kills from 1 to 4 means a lone infected wandering an empty
+    # street never becomes a Stalker.
+    evolution_age_human = 480
+    evolution_age_hyper = 900
+    min_kills = 4
+    min_kills_hyper = 12
+
+[Infections]
+    # Default false. Turning this on is the single most thematically correct
+    # setting in the pack — dying in a city means your corpse joins them.
+    # It is also brutal. Try it, but it's the first thing to turn off if
+    # playtesting stops being fun.
+    inf_player = true
+
+[Scent]
+    # Scents spawn from mob deaths and summon reinforcements. This is what
+    # punishes standing still and fighting. Keep it on, but cap the summon
+    # rate so a long fight escalates rather than avalanches.
+    scent_spawn = true
+    scent_spawn_chance = 6
+    scent_summon = true
+    scent_summon_cooldown = 400
+    scent_life = 3000
+
+[Compatibilities]
+    # Sculk Infection isn't in this pack; FAW isn't either. Both default true
+    # and both are harmless, but turning them off removes two dead code paths.
+    faw_target = false
+    skulk_target = false

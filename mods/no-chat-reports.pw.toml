@@ -1,0 +1,18 @@
+filename = 'NoChatReports-FORGE-1.20.1-v2.2.3.jar'
+name = 'No Chat Reports'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Forge-1.20.1-v2.2.3'
+
+[download]
+hash = '486e6143426ecce7e4784b6f3717d6120de6a29ee73c8fa1d641221f7490e527c13d942ec061c5853a24e1feb8d40126397e405511c3868537567ef1b91f447b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/qQyHxfxd/versions/2XUIKIAa/NoChatReports-FORGE-1.20.1-v2.2.3.jar'
+
+[update.modrinth]
+mod-id = 'qQyHxfxd'
+version = '2XUIKIAa'

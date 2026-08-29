@@ -1,0 +1,37 @@
+filename = 'hexcasting-forge-1.20.1-0.11.4.jar'
+name = 'Hex Casting'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.11.4'
+
+[download]
+hash = 'bbae5917d401acb1b573f4d29c2d334007df7a48de99346412a6b2890692a1795563d7e4db6bd67b578a2ea5f4983a1685b5068a0e64cf764cbc382a1087d124'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/nTW3yKrm/versions/e41256fb/hexcasting-forge-1.20.1-0.11.4.jar'
+
+[update.modrinth]
+mod-id = 'nTW3yKrm'
+version = 'e41256fb'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fin1PX4m'
+type = 'REQUIRED'
+version = 'H1jsvy53'
+
+[[x-prismlauncher-dependencies]]
+addonId = '40FYwb4z'
+type = 'REQUIRED'
+version = 'fs9CeXYZ'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'TZo2wHFe'
+type = 'REQUIRED'
+version = 'HyBiJPtT'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'nU0bVIaL'
+type = 'REQUIRED'
+version = 'scPQNgN5'

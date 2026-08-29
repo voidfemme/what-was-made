@@ -1,0 +1,7 @@
+biomagic-backup-*.tar.gz
+config/*.orig-*
+*.jar
+resourcepacks/*.zip
+shaderpacks/
+saves/
+.DS_Store

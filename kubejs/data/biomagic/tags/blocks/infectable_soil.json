@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:farmland",
+    "minecraft:dirt_path",
+    "minecraft:coarse_dirt"
+  ]
+}

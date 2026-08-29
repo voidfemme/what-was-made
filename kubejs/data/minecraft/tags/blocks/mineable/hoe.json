@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "#biomesoplenty:flesh", "required": false },
+    { "id": "biomesoplenty:flesh_tendons", "required": false },
+    { "id": "biomesoplenty:flesh_tendons_strand", "required": false },
+    { "id": "biomesoplenty:eyebulb", "required": false },
+    { "id": "biomesoplenty:hair", "required": false },
+    { "id": "biomesoplenty:pus_bubble", "required": false }
+  ]
+}

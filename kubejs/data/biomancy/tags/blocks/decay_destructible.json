@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "biomesoplenty:flesh", "required": false },
+    { "id": "biomesoplenty:porous_flesh", "required": false }
+  ]
+}

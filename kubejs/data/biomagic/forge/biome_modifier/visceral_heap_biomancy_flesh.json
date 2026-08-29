@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": "biomesoplenty:visceral_heap",
+  "features": [
+    "biomagic:malignant_flesh_blob",
+    "biomagic:malignant_flesh_veins"
+  ],
+  "step": "underground_decoration"
+}

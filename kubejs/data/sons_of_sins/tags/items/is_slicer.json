@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "spore:sickle", "required": false },
+    { "id": "spore:cleaver", "required": false },
+    { "id": "biomancy:despoil_sickle", "required": false }
+  ]
+}

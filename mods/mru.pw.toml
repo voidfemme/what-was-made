@@ -1,0 +1,18 @@
+filename = 'mru-1.0.33+1.20.1-forge.jar'
+name = "Mineblock's Repeated Utilities"
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.0.33+1.20.1-forge'
+
+[download]
+hash = '87b631f57fa1748d95e391b3f3b949957d8b09d400e444a3c0aba51805e195f6a2be5f1cddc2f7c9eef16db02e520463a2afca9ecab242fe4d61835d1f9b388b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/SNVQ2c0g/versions/PwaB1olj/mru-1.0.33%2B1.20.1-forge.jar'
+
+[update.modrinth]
+mod-id = 'SNVQ2c0g'
+version = 'PwaB1olj'

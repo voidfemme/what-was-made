@@ -1,0 +1,18 @@
+filename = 'spore_1.20.1_2.2.0j.jar'
+name = 'Fungal Infection:Spore'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.2.0j'
+
+[download]
+hash = '32e9e10efd63c341c185da6e7c13dd93a70059573186fa7ba4aecc15ec9cf4af805cfabef91b945d6d5206b8acde24a5eaf0f8bd879185a37c42654eaf2305ac'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/X661i40C/versions/PbOZOahW/spore_1.20.1_2.2.0j.jar'
+
+[update.modrinth]
+mod-id = 'X661i40C'
+version = 'PbOZOahW'
