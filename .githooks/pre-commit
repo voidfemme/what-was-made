@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+command -v packwiz >/dev/null || exit 0
+packwiz refresh
+git add index.toml pack.toml

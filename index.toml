@@ -1,6 +1,9 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".githooks/pre-commit"
+
+[[files]]
 file = "config/alexsmobs.toml"
 
 [[files]]
