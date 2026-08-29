@@ -122,3 +122,44 @@ supplied are gone. Worth adding back the ones you actually want by hand.
 3. Halogen light craftable in JEI.
 
 4. Farmland converts near a mound; grass no longer does.
+
+## Added after the fact: acid instead of blood in the Visceral Heap
+
+`kubejs/data/biomesoplenty/worldgen/configured_feature/blood_lake.json`
+`kubejs/data/biomesoplenty/worldgen/configured_feature/blood_spring.json`
+
+Both are byte-for-byte BOP's originals with one field changed:
+`biomesoplenty:blood` -> `biomancy:acid_fluid_block` (Gastric Acid). Verified
+programmatically that nothing else differs. Barrier stays
+`biomesoplenty:flesh`, spring `valid_blocks` unchanged, both placed features
+untouched (lake count 5, spring count 12).
+
+`AcidFluid$Source` and `$Flowing` confirm it's a proper FlowingFluid, so the
+`level` and `falling` properties carry over unchanged.
+
+**This deliberately does NOT belong in the compat mod.** Adding Biomancy flesh
+alongside BOP flesh is compat; removing a BOP fluid from a BOP biome is a
+pack-level opinion. A stranger installing a BOP x Biomancy bridge would not
+expect their blood lakes to disappear.
+
+### Two consequences, both intended
+
+**The Heap becomes hazardous.** Biomancy acid has its own death messages
+("succumbed to severe acid burns") and its own `acid_destructible` block tag,
+so it dissolves things. BOP blood was decoration; this is terrain that fights
+back. Worth confirming in-world what standing in it actually does, because
+"the Visceral Heap has lakes that hurt you" is a different biome to design
+around than "the Visceral Heap has lakes."
+
+**The blood chain loses its source.** `biomagic_visceral_heap.js` converts
+1000mB BOP blood + 2 nether wart into 250mB evilcraft:blood via superheated
+mixing. The Heap was the only source of BOP blood in the world. With the lakes
+gone, that recipe still exists and is now unreachable — "descend into hell,
+find a lake of blood, power your blood magic" is no longer a route.
+
+Left in place rather than removed, since it costs nothing dormant and BOP blood
+could be reintroduced elsewhere. EvilCraft has its own blood sources, so the
+tree isn't blocked.
+
+Also gone: blood + lava -> flesh, which was BOP blood's only mechanical
+behaviour.
