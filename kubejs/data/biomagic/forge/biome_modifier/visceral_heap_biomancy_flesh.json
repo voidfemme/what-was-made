@@ -3,7 +3,8 @@
   "biomes": "biomesoplenty:visceral_heap",
   "features": [
     "biomagic:malignant_flesh_blob",
-    "biomagic:malignant_flesh_veins"
+    "biomagic:malignant_flesh_veins",
+    "biomagic:buried_cradle"
   ],
   "step": "underground_decoration"
 }

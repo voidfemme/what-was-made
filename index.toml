@@ -22,6 +22,30 @@ file = "kubejs/data/biomagic/forge/biome_modifier/visceral_heap_biomancy_flesh.j
 file = "kubejs/data/biomagic/forge/biome_modifier/visceral_heap_flesh_livestock.json"
 
 [[files]]
+file = "kubejs/data/biomagic/functions/recipe_biomancy.mcfunction"
+
+[[files]]
+file = "kubejs/data/biomagic/functions/recipe_botania.mcfunction"
+
+[[files]]
+file = "kubejs/data/biomagic/functions/recipe_create.mcfunction"
+
+[[files]]
+file = "kubejs/data/biomagic/functions/recipe_evilcraft.mcfunction"
+
+[[files]]
+file = "kubejs/data/biomagic/functions/recipe_halogen.mcfunction"
+
+[[files]]
+file = "kubejs/data/biomagic/functions/recipe_hex.mcfunction"
+
+[[files]]
+file = "kubejs/data/biomagic/functions/recipe_malum.mcfunction"
+
+[[files]]
+file = "kubejs/data/biomagic/functions/recipe_occultism.mcfunction"
+
+[[files]]
 file = "kubejs/data/biomagic/functions/testpad.mcfunction"
 
 [[files]]
@@ -40,10 +64,16 @@ file = "kubejs/data/biomagic/tags/blocks/infectable_timber.json"
 file = "kubejs/data/biomagic/tags/blocks/infection_immune.json"
 
 [[files]]
+file = "kubejs/data/biomagic/worldgen/configured_feature/buried_cradle.json"
+
+[[files]]
 file = "kubejs/data/biomagic/worldgen/configured_feature/malignant_flesh_blob.json"
 
 [[files]]
 file = "kubejs/data/biomagic/worldgen/configured_feature/malignant_flesh_veins.json"
+
+[[files]]
+file = "kubejs/data/biomagic/worldgen/placed_feature/buried_cradle.json"
 
 [[files]]
 file = "kubejs/data/biomagic/worldgen/placed_feature/malignant_flesh_blob.json"

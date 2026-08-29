@@ -1,61 +1,63 @@
 # Bio-Magic — infection conversion test pad
 #   /function biomagic:testpad
 #
-# Each block gets a 2x2 pad, so a 10% conversion roll has four chances per type
-# and you can read partial conversion rather than waiting on a single coin flip.
+# A cross laid out on an axis. Everything sits within 4 blocks of centre, so a
+# mound at default range 5 reaches all of it.
 #
-# Layout is a cross on an axis, everything within 4 blocks of centre:
 #   NORTH (-Z)  worked stone     should convert
 #   SOUTH (+Z)  wild stone       should NOT convert
 #   EAST  (+X)  worked ground    should convert
 #   WEST  (-X)  wild ground      should NOT convert
-#   CORNERS     wood control + discriminators
+#   CORNERS     wood + leftovers
 #
-# Water at centre keeps the farmland hydrated. Hydration works at the same Y or
-# above, within 4 blocks horizontally — it does NOT work from below.
+# Water at centre keeps the farmland at ~1 ~ ~ hydrated (same Y or above, within
+# 4 blocks horizontally — it does NOT work from below).
+#
+# Run testpad_clear afterwards to reset.
 
 say Building infection test pad...
 
-fill ~-6 ~ ~-6 ~6 ~2 ~6 minecraft:air
+# clear the area, including a block of headroom
+fill ~-5 ~ ~-5 ~5 ~2 ~5 minecraft:air
+
+# centre — water for farmland hydration, and where the mound goes
 setblock ~ ~ ~ minecraft:water
 
 # NORTH — worked stone. Expect conversion.
-fill ~-1 ~ ~-2 ~ ~ ~-1 minecraft:bricks
-fill ~-1 ~ ~-4 ~ ~ ~-3 minecraft:cobbled_deepslate
-fill ~1 ~ ~-2 ~2 ~ ~-1 minecraft:smooth_stone
+setblock ~ ~ ~-1 minecraft:bricks
+setblock ~ ~ ~-2 minecraft:cobbled_deepslate
+setblock ~ ~ ~-3 minecraft:smooth_stone
 
 # SOUTH — wild stone. Expect NO conversion.
-fill ~-1 ~ ~1 ~ ~ ~2 minecraft:stone
-fill ~-1 ~ ~3 ~ ~ ~4 minecraft:deepslate
-fill ~1 ~ ~1 ~2 ~ ~2 minecraft:gravel
+setblock ~ ~ ~1 minecraft:stone
+setblock ~ ~ ~2 minecraft:deepslate
+setblock ~ ~ ~3 minecraft:gravel
 
 # EAST — worked ground. Expect conversion.
-fill ~1 ~ ~-1 ~2 ~ ~ minecraft:farmland
-fill ~3 ~ ~-1 ~4 ~ ~ minecraft:dirt_path
-fill ~3 ~ ~1 ~4 ~ ~2 minecraft:coarse_dirt
+setblock ~1 ~ ~ minecraft:farmland
+setblock ~2 ~ ~ minecraft:dirt_path
+setblock ~3 ~ ~ minecraft:coarse_dirt
 
 # WEST — wild ground. Expect NO conversion.
-fill ~-2 ~ ~-1 ~-1 ~ ~ minecraft:grass_block
-fill ~-4 ~ ~-1 ~-3 ~ ~ minecraft:dirt
-fill ~-4 ~ ~1 ~-3 ~ ~2 minecraft:podzol
+setblock ~-1 ~ ~ minecraft:grass_block
+setblock ~-2 ~ ~ minecraft:dirt
+setblock ~-3 ~ ~ minecraft:podzol
 
-# CORNERS — wood rots via convertWood regardless of config. Control group.
-fill ~3 ~ ~3 ~4 ~ ~4 minecraft:oak_log
-fill ~-4 ~ ~3 ~-3 ~ ~4 minecraft:oak_planks
-
+# CORNERS
+# wood: rots via convertWood regardless of any config. Control group.
+setblock ~2 ~ ~2 minecraft:oak_log
+setblock ~-2 ~ ~2 minecraft:oak_planks
 # masonry tag check
-fill ~3 ~ ~-4 ~4 ~ ~-3 minecraft:stone_bricks
-
-# cobblestone: in the sporedata list, NOT in infectable_masonry.
-# Converts -> the list is the source. Survives -> neither is.
-fill ~-4 ~ ~-4 ~-3 ~ ~-3 minecraft:cobblestone
-
+setblock ~2 ~ ~-2 minecraft:stone_bricks
+# cobblestone: in the sporedata list but NOT in infectable_masonry.
+# Converting means the list is the source; surviving means neither is.
+setblock ~-2 ~ ~-2 minecraft:cobblestone
 # remaining wild cuts
-fill ~-2 ~ ~-4 ~-1 ~ ~-3 minecraft:sand
-fill ~-2 ~ ~3 ~-1 ~ ~4 minecraft:clay
-fill ~1 ~ ~-4 ~2 ~ ~-3 minecraft:terracotta
-fill ~1 ~ ~3 ~2 ~ ~4 minecraft:red_terracotta
+setblock ~3 ~ ~3 minecraft:sand
+setblock ~-3 ~ ~3 minecraft:clay
+setblock ~3 ~ ~-3 minecraft:terracotta
+setblock ~-3 ~ ~-3 minecraft:red_terracotta
 
-say Pad built. Summon on the centre water:
+say Pad built. Summon the mound on the centre water:
 say   /summon spore:mound ~ ~1 ~
-say Then step clear. 10% roll per attempt — give it several minutes.
+say Then step clear. Conversion is a 10% roll per attempt, so give it minutes.
