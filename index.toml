@@ -1,563 +1,452 @@
 hash-format = "sha256"
 
 [[files]]
+file = "README.md"
+
+[[files]]
 file = "config/alexsmobs.toml"
-hash = "23e36ed34b283789d8d2caaaa822d4e8ea376c830d03f4b3f2fc9e08a402e82d"
 
 [[files]]
 file = "config/canary.properties"
-hash = "d41b060381ef7061d6c71a30e52723a5a2bc3b28f5b5b34a855969a3d308b1fc"
 
 [[files]]
 file = "config/sporeconfig.toml"
-hash = "fe079397d0a6fff919dac281d9a312d1ecefa292fe42762952811ca105ea1bcd"
 
 [[files]]
 file = "kubejs/data/biomagic/forge/biome_modifier/visceral_heap_biomancy_flesh.json"
-hash = "8c7ce134e8542febd5e603abeeeda846bdc1cbe9531434a6c2f32c2aa7c1a195"
 
 [[files]]
 file = "kubejs/data/biomagic/forge/biome_modifier/visceral_heap_flesh_livestock.json"
-hash = "e4764826abadf79d64f785d9885b7df9afb5ff84de4c8bd275e752e51a341892"
 
 [[files]]
 file = "kubejs/data/biomagic/tags/blocks/infectable_masonry.json"
-hash = "59fa29ad2c88ae45dc9d99aa2ad5b4ab010c256adafaa1ba8d3cd7903648f2ed"
 
 [[files]]
 file = "kubejs/data/biomagic/tags/blocks/infectable_soil.json"
-hash = "338be7cd761905225b4f49fab38165f7a8ef20203fad3a2654c19ba7509b4ff7"
 
 [[files]]
 file = "kubejs/data/biomagic/tags/blocks/infectable_timber.json"
-hash = "92207de447393c45639ce2964ec0daf97870dfdd736a25da8508ed47243d0d8c"
 
 [[files]]
 file = "kubejs/data/biomagic/tags/blocks/infection_immune.json"
-hash = "72bcb3273c7a282e7e17f7b64490a97de0609599bcef079b1a2cb9b8e85d025d"
 
 [[files]]
 file = "kubejs/data/biomagic/worldgen/configured_feature/malignant_flesh_blob.json"
-hash = "8fcbaf868675be9b5c47f0b1b2d87e5a8e94281d66888b1099e046fc358f3dda"
 
 [[files]]
 file = "kubejs/data/biomagic/worldgen/configured_feature/malignant_flesh_veins.json"
-hash = "3e3a7d7c5e7b1b19cc4d6d8d491dd261d389724c22dc3e37baa282a63c161fbd"
 
 [[files]]
 file = "kubejs/data/biomagic/worldgen/placed_feature/malignant_flesh_blob.json"
-hash = "c0bec9b82c72ac6c4ea9dbf0c2dc5f09c4e12612ac6d5410dd33f7b7a502e178"
 
 [[files]]
 file = "kubejs/data/biomagic/worldgen/placed_feature/malignant_flesh_veins.json"
-hash = "008c5b4529173f66d0bb28b4af840390ea983060c2ea223e4dc7bdd4e3fd0ed0"
 
 [[files]]
 file = "kubejs/data/biomancy/tags/blocks/allow_veins_to_attach.json"
-hash = "7e8fc0c71f44ddc123ca3dc36a6d81d9d56880a6da9473edee111c9535d8f68d"
 
 [[files]]
 file = "kubejs/data/biomancy/tags/blocks/decay_destructible.json"
-hash = "7e8fc0c71f44ddc123ca3dc36a6d81d9d56880a6da9473edee111c9535d8f68d"
+
+[[files]]
+file = "kubejs/data/biomesoplenty/worldgen/configured_feature/blood_lake.json"
+
+[[files]]
+file = "kubejs/data/biomesoplenty/worldgen/configured_feature/blood_spring.json"
 
 [[files]]
 file = "kubejs/data/minecraft/tags/blocks/animals_spawnable_on.json"
-hash = "7e8fc0c71f44ddc123ca3dc36a6d81d9d56880a6da9473edee111c9535d8f68d"
 
 [[files]]
 file = "kubejs/data/minecraft/tags/blocks/mineable/axe.json"
-hash = "f8f8c9711bef33b9e295b279f1f2c2406c02b5b79a3a9652d69f94209cd0049a"
 
 [[files]]
 file = "kubejs/data/minecraft/tags/blocks/mineable/hoe.json"
-hash = "93281115ca64fe176614848d6ecc487a0124dedcadc13a828f1e3cd2c22188cd"
 
 [[files]]
 file = "kubejs/data/sons_of_sins/tags/items/is_slicer.json"
-hash = "8e6984d8cbcb2ba7c870699884ebde88c97a9dd03dd333da2197fac14972b2df"
 
 [[files]]
 file = "kubejs/data/spore/spore_block_conversion/default_conversions.json"
-hash = "16b2019456a039e86fe1a979562ccb5c7338f20bb651d451c091307b852ed742"
 
 [[files]]
 file = "kubejs/data/spore/worldgen/structure_set/biomass_tower.json"
-hash = "acc151da124ecfc6b3fea5626293538331fc292bb32e43f91d3c2b9ab2c47aac"
 
 [[files]]
 file = "kubejs/data/spore/worldgen/structure_set/cathedral.json"
-hash = "92cce164923d6a1903e28c3e2ce6feaeec0506958c21c2afb5792e28c6d07710"
 
 [[files]]
 file = "kubejs/data/spore/worldgen/structure_set/cell.json"
-hash = "fada4faab28d70e2806add69354ac5eaab8df37b7d5224bd1fd1299fbec2114a"
 
 [[files]]
 file = "kubejs/data/spore/worldgen/structure_set/celltower.json"
-hash = "bb5fa64f98297416415d12cb84733b9045bbb1ddb5aa8af7b4be5458ad7399d7"
 
 [[files]]
 file = "kubejs/data/spore/worldgen/structure_set/church.json"
-hash = "c92fb06838078d6c01f6cb2ddfe9669f3a4666d4a8f00b5b3f472fcf71b04baa"
 
 [[files]]
 file = "kubejs/data/spore/worldgen/structure_set/hospital.json"
-hash = "a8781d681987c96753c106c7a2cfb914310fc1f9c9fe5e74cbb0dd04a0f9ba2d"
 
 [[files]]
 file = "kubejs/data/spore/worldgen/structure_set/lab.json"
-hash = "1da241566a273c63042e15c2d63486d039d2c122814be0d9d149c1260a6fbefc"
 
 [[files]]
 file = "kubejs/data/spore/worldgen/structure_set/lodge.json"
-hash = "a9312584927623ab6f167c651ceabab148bf41442d97ea72ab4e765010621e4b"
 
 [[files]]
 file = "kubejs/data/spore/worldgen/structure_set/mass_grave.json"
-hash = "4b29e410f7fc4bdecb6be1910db7799011bc8fe3c66ed06acd1a24e9f979e8c1"
 
 [[files]]
 file = "kubejs/data/spore/worldgen/structure_set/military_camp.json"
-hash = "a6dcde465a25c84158df49fd111ac3cf68c46d1b24b758fc21bda7b70826d3b6"
 
 [[files]]
 file = "kubejs/data/spore/worldgen/structure_set/prison.json"
-hash = "0553178eb9264faea1bc7bd7e96949c2d54bd7000336f476782ae5f266c1185b"
 
 [[files]]
 file = "kubejs/server_scripts/biomagic_capstone.js"
-hash = "3ef9f96ad92a689be35eae9bfb8c36bc0e5a99feedb238d308c4042a02795f81"
 
 [[files]]
 file = "kubejs/server_scripts/biomagic_fixes.js"
-hash = "e86cc60b652cf95470797ef54bf86e7c41c1efbafe381c93a4f6a4b46d70d0e1"
 
 [[files]]
 file = "kubejs/server_scripts/biomagic_invariants.js"
-hash = "880c0ce6d3344621c674b993ff70349097e8583d20e23c79a038a32dee9d124f"
 
 [[files]]
 file = "kubejs/server_scripts/biomagic_loot.js"
-hash = "f2e744fb52d6277618994aa54cb25d3d5b5ec9679430481174b49aa63442158b"
 
 [[files]]
 file = "kubejs/server_scripts/biomagic_mosquito.js"
-hash = "8767fa26713b46d9dee77d0e76883b2bae1d09d7606c0c38af22e6d34ac1039d"
 
 [[files]]
 file = "kubejs/server_scripts/biomagic_visceral_heap.js"
-hash = "661c41d648bbea4cd59ed6b450a645a2ddf006f96cd52fdbcca78d16f89d8826"
 
 [[files]]
 file = "mods/alexs-mobs.pw.toml"
-hash = "47a41f46ba96fcb2613b1cfc2ef69419ed773cc93ab340ce84b64fc58a28ecf6"
 metafile = true
 
 [[files]]
 file = "mods/appleskin.pw.toml"
-hash = "afddb0579393880a8915fe0c2477024ddea5cd55da44b67d2ded6cd4b0fa9e56"
 metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "e45a905bb5071037c3f4f88a5d56655c4929fc2ebee8ef24a9c2c509b9502e9f"
 metafile = true
 
 [[files]]
 file = "mods/attributefix.pw.toml"
-hash = "15f286647606a0d24d3350e4481f2dfbb5e1e7ee88f4e5543f4f06efd0e0ad51"
 metafile = true
 
 [[files]]
 file = "mods/better-combat-nbt-fix.pw.toml"
-hash = "4a7440b0554a42ccc43c4be87d1d15ddeb8c2393bb375995fc4156639b696278"
 metafile = true
 
 [[files]]
 file = "mods/better-combat-reach-fix.pw.toml"
-hash = "4c3cb1934cec4e9002bfa0ad4da7d151785b1f16489c781649ecd9daf4e34609"
 metafile = true
 
 [[files]]
 file = "mods/better-combat.pw.toml"
-hash = "112615a63a0c31ee702cf47f472df1c0feb414a737ddb35d1910fea7a84f1aba"
 metafile = true
 
 [[files]]
 file = "mods/biofactory.pw.toml"
-hash = "1935ccd9248cc7ea2287f0f78214ecf11280f5a1b197e1f5257c2119a80b17cc"
 metafile = true
 
 [[files]]
 file = "mods/biomancy.pw.toml"
-hash = "d0da99b298d2c29f446bcadd1f63fb55c03ecf8803e3e860096e22949958bfd6"
 metafile = true
 
 [[files]]
 file = "mods/biomes-o-plenty.pw.toml"
-hash = "09429b6c282aa8083f3cbff8e7a0cd43ff2978616b5a4064667c2c458ce8d135"
 metafile = true
 
 [[files]]
 file = "mods/bookshelf-lib.pw.toml"
-hash = "27893d5571ff76b212d2de04f695c5bfd039db0356378aca639087cf6cef0c0a"
 metafile = true
 
 [[files]]
 file = "mods/botania.pw.toml"
-hash = "b28971b7f7a42c342133ca018fd23f4ef834be84d150c7745db5d487752dff1f"
 metafile = true
 
 [[files]]
 file = "mods/c2mef.pw.toml"
-hash = "299e65ae3890ccad3fb7ab8ae05b54ee30114ec464df6f4a99474053caef8f37"
 metafile = true
 
 [[files]]
 file = "mods/caelus.pw.toml"
-hash = "b3dd5b627a58baa71bd25c50dbca45311965521d7bc1ce08685a943ac4cf4872"
 metafile = true
 
 [[files]]
 file = "mods/canary.pw.toml"
-hash = "eb6b25367d465a1b334186c95de507d3c05b8c1b3cf0d915d9902c5087da878f"
 metafile = true
 
 [[files]]
 file = "mods/citadel.pw.toml"
-hash = "543271cce2f9a58f8c98c383bc956eb2b2fcd1e256e4717528343f2d41a34ec8"
 metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "366fbb24856612fdf828694cc975a34aa06c652566c5ef7bf003d855b8998156"
 metafile = true
 
 [[files]]
 file = "mods/clumps.pw.toml"
-hash = "562f183559220689242afc22ddd3be6d73c630dd9437be80a7a491bda4bc0f9b"
 metafile = true
 
 [[files]]
 file = "mods/comforts.pw.toml"
-hash = "605af3b62ad3368b5648ad940d20a01ffdf07a318a9757bf0656a0cac9115134"
 metafile = true
 
 [[files]]
 file = "mods/controlling.pw.toml"
-hash = "ffd7117694460c548e07eab4ed8b1fa59568e5977b6c7876570b7778e0aac095"
 metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "90a3e19aea7e9eb55d12e2d0a95de343981123f0da6bcdaa4e81792087419d8c"
 metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "81f865055cb55e2ff159c3fc703f506344353b899dd5a6ac465a5dd96b4bb4a7"
 metafile = true
 
 [[files]]
 file = "mods/cyclops-core.pw.toml"
-hash = "bdb4f32f143d86a97dfd8d98c2549662a006a70d825966e6426ff2a2975c6173"
 metafile = true
 
 [[files]]
 file = "mods/death-muffler-fix.pw.toml"
-hash = "71b14d08c4bc15282352c6fe58220fb61bca1ec3ca535b6e74b0a2dba939c50b"
 metafile = true
 
 [[files]]
 file = "mods/durability-tooltip.pw.toml"
-hash = "59ea3030425d4fa0f13b583340b93f9dadc9e6185d8496e67992e23f2a621aad"
 metafile = true
 
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "81ec2167125cf10af4229cec35fb448a4238d6f3af63185757971806c65c67e1"
 metafile = true
 
 [[files]]
 file = "mods/evilcraft.pw.toml"
-hash = "739c50a3cb6ab83e1ad3f5e7a2e04d9a169bb551ca7609ea5d29ae85e521a073"
 metafile = true
 
 [[files]]
 file = "mods/fastload.pw.toml"
-hash = "931efb6c743d1c142c02fba88ac182d524a7499e1223ddd837bb42d532cb761b"
 metafile = true
 
 [[files]]
 file = "mods/ferrite-core.pw.toml"
-hash = "ce55e706439bfc4a0edf1a212e2abc0649b4d73516568e208ac2755fecdf1617"
 metafile = true
 
 [[files]]
 file = "mods/fps-reducer.pw.toml"
-hash = "d86361b3b0e8556f00922cfcd420dcd0ab6d81793c66069e990cfd5af5a57c6d"
 metafile = true
 
 [[files]]
 file = "mods/fungal-infectionspore.pw.toml"
-hash = "0d05a120e1bf725d478e253e6e8881dfa4231e71ebbbe63577fe76f20997051e"
 metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "68f82698e4774ffd9cabfc2cfee965623b4aeab2d59e88a2d40bd08320569d2a"
 metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "f829f9401fa81edddba2bf90f11cc5a871acd0f44e7c8531e31a3a3d5bd21e96"
 metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "7b37e6c511cefe54a7c4d068b43c66535b9ddf09175bd886579c68e85857d59d"
 metafile = true
 
 [[files]]
 file = "mods/glitchcore.pw.toml"
-hash = "04d53dcb7f9baf7956aff4a9a778730d3a6cf9aaab3f4e6de5226c36684d8bec"
 metafile = true
 
 [[files]]
 file = "mods/hex-casting.pw.toml"
-hash = "1c3e65b63d46f9c7c37ee6b7f76fe67b04d53ef51e1a2a4157f08ddddec4f9fa"
 metafile = true
 
 [[files]]
 file = "mods/inline.pw.toml"
-hash = "1e12b0050ab0a01cab3c40f555c34a7ea3747f8d6ddf0e6ed989ea58199fb885"
 metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "15efcf30c26aa606e6c3f6e5b8f65a0b455af81b1c04552b0ade9dd1175b76ef"
 metafile = true
 
 [[files]]
 file = "mods/jei-malum.pw.toml"
-hash = "d3637a2b2e9ca25d2887515f57f1c0fc33538f9c470461089496f30c63124b65"
 metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "a38dd4335a67bb812c98e8b896e62b5f957156c3fe195fa76b09fecf420f4369"
 metafile = true
 
 [[files]]
 file = "mods/justenoughbreeding.pw.toml"
-hash = "8ab03f683767b1cd80147b92817c0fa605eec3a5ecbd8798c5db3b28bd92a2fc"
 metafile = true
 
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
-hash = "b073be7175bf2c9e444aae777fc62217c92b758cd7eb6b090f268c9a3d75623a"
 metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "e4757c531cb38fcca476b7256043bc0d3c288aa739fff8e35072b01b7c998beb"
 metafile = true
 
 [[files]]
 file = "mods/lodestone.pw.toml"
-hash = "a484a0a768e886244dab01dd9793d979ca5d57b8327f9f4caa36a3031fc46d63"
 metafile = true
 
 [[files]]
 file = "mods/lootjs.pw.toml"
-hash = "86a8ff2a49196ecc3b3b6aa0369913fde72fdd4f48cb809b9d749c26a6219be8"
 metafile = true
 
 [[files]]
 file = "mods/lootr.pw.toml"
-hash = "2896af073b812db3595297aaf378fa81c4c73f33c4b9fa0867b5fcd22314a965"
 metafile = true
 
 [[files]]
 file = "mods/lost-cities-modern-tweaks.pw.toml"
-hash = "033b7cda6f2320e994df15e3890a0ebf217daea9c0fc2928bfe61f6965d250ff"
 metafile = true
 
 [[files]]
 file = "mods/lostcitiesfilter.pw.toml"
-hash = "c9d3ac291b7c0ba3addc3dc137e0a2f26ca30822dbad73fcf6c6015afc9ef5c9"
 metafile = true
 
 [[files]]
 file = "mods/make_bubbles_pop.pw.toml"
-hash = "c7d0bc7bb6dd5b2d23e6929501afc70081a05e2f7dec3a19b6f29c0765d82831"
 metafile = true
 
 [[files]]
 file = "mods/malum.pw.toml"
-hash = "19821414a26c40c40f4584102cbc73df7282ef1aadf8f948b37f97c6f44a91a3"
 metafile = true
 
 [[files]]
 file = "mods/memoryleakfix.pw.toml"
-hash = "95cabb592f9e341b86b8c3fe778df46807fd886000937b46be28384c5d373334"
 metafile = true
 
 [[files]]
 file = "mods/mob-grinding-utils.pw.toml"
-hash = "22ffca942573f1c39cc6c495122a31706a12eeb655c013c6c017aa1306ccaf7b"
 metafile = true
 
 [[files]]
 file = "mods/mob-player-animator.pw.toml"
-hash = "dc5f7eb48e261d9fb1dd21df2c147cd42cf37b32ae5cee2694259b6d5894b5e6"
 metafile = true
 
 [[files]]
 file = "mods/modelfix.pw.toml"
-hash = "e635787ddd4f12b5ad9b8606ebeeb0d615c5e3a8db3c6010daa726d8ded9e060"
 metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "dac3039222786809550dfc5fc67ff570bf5da2bb53a219d4f0e3059d8d316c62"
 metafile = true
 
 [[files]]
 file = "mods/modonomicon.pw.toml"
-hash = "1102dbf9674430760ca9f56e3b03a5b0075be9557955d8518070b69499e7bcea"
 metafile = true
 
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
-hash = "e8f62d831c13e415b2dbf2c3649912073fadbdb670bbbfbf6f7f290549bdcf16"
 metafile = true
 
 [[files]]
 file = "mods/mru.pw.toml"
-hash = "5ced95543d4f01678cc682bf6659e336e27b80fb4518f9b3dcde7d2a3a02ac9e"
 metafile = true
 
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
-hash = "e988c30944fd673e008173b5885f0d4d0a9a20cc9126608e79095d5b36567377"
 metafile = true
 
 [[files]]
 file = "mods/occultism-kubejs.pw.toml"
-hash = "a37951b5e93f016234471a1607331b2326e10d9746413c156b5e2fd24b858f3c"
 metafile = true
 
 [[files]]
 file = "mods/occultism.pw.toml"
-hash = "7b9774691f26a8dc391b2f24c92a6a7945859bd6f5478822c903532fbda9853f"
 metafile = true
 
 [[files]]
 file = "mods/patchouli.pw.toml"
-hash = "1c726ff3286692fc9174691caa59d908e8963c4496ae74c934cef9d5da952318"
 metafile = true
 
 [[files]]
 file = "mods/paucal.pw.toml"
-hash = "b9d84d3a3c71312a7a9d63b61ab7117816df581dfe0b11e581949a0a6c638928"
 metafile = true
 
 [[files]]
 file = "mods/pehkui.pw.toml"
-hash = "aefc16d6520594132ef6e524598db1cbe752e55b6d13a178c52c4d70863080e6"
 metafile = true
 
 [[files]]
 file = "mods/playeranimator.pw.toml"
-hash = "d8aa111370bf9d4c13e0416b2d9c7991091f9c8ea87c1d12dfd9ec1231cfdbfc"
 metafile = true
 
 [[files]]
 file = "mods/quantifiedapi.pw.toml"
-hash = "2c7f19dfc21bb19084b658d28cc58bc95b689a0500980a8da65e698f25d91e03"
 metafile = true
 
 [[files]]
 file = "mods/rhino.pw.toml"
-hash = "8f22a494ca593926483a67ff18cd86134e82aa258790daffe3ee5d0fe6730b27"
 metafile = true
 
 [[files]]
 file = "mods/searchables.pw.toml"
-hash = "4568d1c3f33880a9a80be364b955a601d710ce8824bfdc8d0987cb737ba47578"
 metafile = true
 
 [[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
-hash = "760603f91698f4d74819c8bdcfe8cc568e5bd3241825e9fa813a7863cedf171e"
 metafile = true
 
 [[files]]
 file = "mods/simply-tooltips.pw.toml"
-hash = "1099c536524c76ae5fce4c14bcff5fa3726987b2ba24ac9f3e991facb63c1e61"
 metafile = true
 
 [[files]]
 file = "mods/smartbrainlib.pw.toml"
-hash = "3445c76534774af74ef1fceafa8570ced43d83c903aa4c3c8c716ab2439e8a34"
 metafile = true
 
 [[files]]
 file = "mods/sons-of-sins.pw.toml"
-hash = "988bd6d58ef3fe58409b461928dc0d4bee4a3c82f4a9e14851a90a4d1d1b3199"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "01fc09e2f00b4743e781a6f2e01502b53bd06023be005382858d0695cf8ced6f"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "d49a846a95331d59aa548703b2200300106ed38719c6f0d3edf57a8fa58328f9"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-inventory-interactions.pw.toml"
-hash = "cf2062dd04098bf82e14e008ad221ffd62c35d1d44ccf78584ebce41bf976150"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-item-actions.pw.toml"
-hash = "f67702728e6bbec137946ceef972c69b3eace57a667c222d6fd19c718ee43b95"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-jei-index.pw.toml"
-hash = "0298ee4a86bf4e731d7295c95dcae23478f20516f1587d179543d084f723d171"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "81c857aab9e71b47a9db3d9571f759af38328b1288a61737433620493f8719d4"
 metafile = true
 
 [[files]]
 file = "mods/sound-physics-remastered.pw.toml"
-hash = "2d00c1f9a8f8a0f706f2caea73df35b953d14f5dde79d7c6ca400165a42d1148"
 metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
-hash = "655403e7c7b14fddee288b1d7486d71bab4e192ceb8a7837d6abb5b9955201d0"
 metafile = true
 
 [[files]]
 file = "mods/terrablender.pw.toml"
-hash = "c6b7ab9b4bc93b28668d9e0b9b6ec474f844be41a83d9908126c49de660f112a"
 metafile = true
 
 [[files]]
 file = "mods/the-lost-cities.pw.toml"
-hash = "3218a0eace42d8adfaa5a94b2ed812217b67eb9401e9fecc40da8bb11d4e0e13"
 metafile = true
 
 [[files]]
 file = "prism-prelaunch.sh"
-hash = "ca3f3532063e4c70fdf9ae6cea6524de0a0679edd1c1ad325d272b5331d18b1b"
