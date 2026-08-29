@@ -13,10 +13,19 @@ file = "config/canary.properties"
 file = "config/sporeconfig.toml"
 
 [[files]]
+file = "config/sporedata.toml"
+
+[[files]]
 file = "kubejs/data/biomagic/forge/biome_modifier/visceral_heap_biomancy_flesh.json"
 
 [[files]]
 file = "kubejs/data/biomagic/forge/biome_modifier/visceral_heap_flesh_livestock.json"
+
+[[files]]
+file = "kubejs/data/biomagic/functions/testpad.mcfunction"
+
+[[files]]
+file = "kubejs/data/biomagic/functions/testpad_clear.mcfunction"
 
 [[files]]
 file = "kubejs/data/biomagic/tags/blocks/infectable_masonry.json"
@@ -381,10 +390,6 @@ file = "mods/playeranimator.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/quantifiedapi.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/rhino.pw.toml"
 metafile = true
 
@@ -394,10 +399,6 @@ metafile = true
 
 [[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/simply-tooltips.pw.toml"
 metafile = true
 
 [[files]]
