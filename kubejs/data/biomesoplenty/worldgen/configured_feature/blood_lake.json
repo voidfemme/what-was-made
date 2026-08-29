@@ -1,20 +1,34 @@
 {
-  "type": "minecraft:lake",
-  "config": {
-    "barrier": {
-      "type": "minecraft:simple_state_provider",
-      "state": {
-        "Name": "biomesoplenty:flesh"
-      }
-    },
-    "fluid": {
-      "type": "minecraft:simple_state_provider",
-      "state": {
-        "Name": "biomancy:acid_fluid_block",
-        "Properties": {
-          "level": "0"
+    "type": "minecraft:lake",
+    "config": {
+        "barrier": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "biomesoplenty:flesh"
+            }
+        },
+        "fluid": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+                {
+                    "weight": 7,
+                    "data": {
+                        "Name": "biomesoplenty:blood",
+                        "Properties": {
+                            "level": "0"
+                        }
+                    }
+                },
+                {
+                    "weight": 3,
+                    "data": {
+                        "Name": "biomancy:acid_fluid_block",
+                        "Properties": {
+                            "level": "0"
+                        }
+                    }
+                }
+            ]
         }
-      }
     }
-  }
 }
