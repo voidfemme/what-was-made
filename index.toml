@@ -22,6 +22,9 @@ file = "kubejs/data/biomagic/forge/biome_modifier/visceral_heap_biomancy_flesh.j
 file = "kubejs/data/biomagic/forge/biome_modifier/visceral_heap_flesh_livestock.json"
 
 [[files]]
+file = "kubejs/data/biomagic/functions/netherportal.mcfunction"
+
+[[files]]
 file = "kubejs/data/biomagic/functions/recipe_biomancy.mcfunction"
 
 [[files]]

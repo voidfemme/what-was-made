@@ -1,4 +1,6 @@
-# what was made
+# Bio Magic
+
+![Logo](assets/Bio-Magic-Logo.png)
 
 Configs, datapacks and scripts for **Bio-Magic**, a Minecraft 1.20.1 Forge
 modpack. Managed with [packwiz](https://packwiz.infra.link/).

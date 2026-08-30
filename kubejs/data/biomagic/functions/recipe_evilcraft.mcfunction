@@ -1,16 +1,23 @@
 # Bio-Magic — EvilCraft capstone routes (2 recipes)
 #   /function biomagic:recipe_evilcraft
 #
-# biomagic:evilcraft/armor_fragment     tier 1: claw_fragment + 4000mB blood
-# biomagic:evilcraft/organoid_membrane  tier 2: mutated_fiber + 12000mB blood
+# Builds EAST of you (+X).
 #
-# NOTE the tier difference. The membrane recipe needs a Blood Infuser upgraded
-# to tier 2, so if only the fragment recipe works, that's the reason.
+# armor_fragment     TIER 1: claw_fragment + 4000mB blood
+# organoid_membrane  TIER 2: mutated_fiber + 12000mB blood
+#
+# Note the tier difference. If only the fragment recipe works, the infuser
+# needs upgrading — that's the reason, not a broken recipe.
+#
+# The infuser needs filling with blood first. Dark tank given for transport.
+
+fill ~1 ~ ~-1 ~4 ~1 ~1 minecraft:air
+setblock ~2 ~ ~ evilcraft:blood_infuser
 
 clear @s
-give @s evilcraft:blood_infuser 2
 give @s spore:claw_fragment 16
 give @s spore:mutated_fiber 16
-give @s evilcraft:dark_tank 1
-say EvilCraft: blood infuser + blood. Membrane needs TIER 2.
-say Fill the infuser with blood first — 4000mB and 12000mB respectively.
+give @s evilcraft:dark_tank 2
+
+say Blood infuser placed east. Fill it with blood before testing.
+say Membrane recipe needs TIER 2 — upgrade the infuser for that one.

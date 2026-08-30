@@ -1,19 +1,23 @@
 # Bio-Magic — Occultism capstone routes (2 recipes)
 #   /function biomagic:recipe_occultism
 #
-# biomagic:occultism/armor_fragment     spirit_fire: claw_fragment
-# biomagic:occultism/organoid_membrane  spirit_trade: mutated_fiber + otherstone
+# Builds EAST of you (+X).
 #
-# KNOWN ISSUE: the spirit_trade recipe loads without error but has NO JEI
-# category, because spirit trades are consumed by a summoned trader rather than
-# a machine. This function is also the test for whether it works at all.
+# armor_fragment     spirit_fire: throw claw_fragment in
+# organoid_membrane  spirit_trade: mutated_fiber + otherstone
 #
-# SETUP: place Spirit Fire, throw claw fragments into it.
+# EXPECTED TO PARTLY FAIL. spirit_trade recipes are consumed by a summoned
+# trader, not a machine, which is why it has no JEI category. This function is
+# the test for whether it works at all.
+
+fill ~1 ~-1 ~-1 ~4 ~1 ~1 minecraft:air
+setblock ~2 ~-1 ~ minecraft:netherrack
+setblock ~2 ~ ~ occultism:spirit_fire
 
 clear @s
-give @s occultism:spirit_fire 4
 give @s occultism:otherstone 16
 give @s spore:claw_fragment 16
 give @s spore:mutated_fiber 16
-say Occultism: place spirit fire, throw claw fragments in.
-say The membrane recipe needs a summoned trader — this is the untested one.
+
+say Spirit fire placed east. Throw claw fragments into it.
+say The membrane recipe needs a summoned trader — that's the untested half.
