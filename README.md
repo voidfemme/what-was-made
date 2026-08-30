@@ -1,6 +1,6 @@
 # Bio Magic
 
-<img src="assets/Bio-Magic-Logo.png" alt="Bio Magic Logo" width="200"/>
+<center><img src="assets/Bio-Magic-Logo.png" alt="Bio Magic Logo" width="200"/></center>
 
 Configs, datapacks and scripts for **Bio-Magic**, a Minecraft 1.20.1 Forge
 modpack. Managed with [packwiz](https://packwiz.infra.link/).
