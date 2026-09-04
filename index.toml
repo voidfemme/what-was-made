@@ -235,6 +235,10 @@ file = "mods/clumps.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/collective.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/comforts.pw.toml"
 metafile = true
 
@@ -407,6 +411,10 @@ file = "mods/occultism.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/ore-vein-miner.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 metafile = true
 
@@ -480,6 +488,10 @@ metafile = true
 
 [[files]]
 file = "mods/the-lost-cities.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/tree-harvester.pw.toml"
 metafile = true
 
 [[files]]

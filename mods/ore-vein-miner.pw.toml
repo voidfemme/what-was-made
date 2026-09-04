@@ -1,0 +1,13 @@
+name = "Ore Vein Miner"
+filename = "ore-vein-miner-7.01R1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b1b5c6fff65cbbf3a9f362095beaa2f20764edbb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8762910
+project-id = 1357245
