@@ -4,6 +4,12 @@ hash-format = "sha256"
 file = ".githooks/pre-commit"
 
 [[files]]
+file = ".nojekyll"
+
+[[files]]
+file = ".published-files"
+
+[[files]]
 file = "config/alexsmobs.toml"
 
 [[files]]
@@ -481,6 +487,9 @@ metafile = true
 [[files]]
 file = "mods/tree-harvester.pw.toml"
 metafile = true
+
+[[files]]
+file = "packstamp.txt"
 
 [[files]]
 file = "prism-prelaunch.sh"

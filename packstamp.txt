@@ -1,0 +1,5 @@
+Bio Magic 0.1.0
+build c953e823deff
+commit c953e823deffeda491b628d2eac41f06560398bc
+
+Paste this whole file into any bug report.
