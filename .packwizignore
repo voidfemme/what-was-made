@@ -4,3 +4,7 @@ notes/
 biomagic-backup-*.tar.gz
 config/*.orig-*
 assets/
+dist/
+scripts/
+backup/
+.envrc

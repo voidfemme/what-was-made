@@ -5,3 +5,8 @@ resourcepacks/*.zip
 shaderpacks/
 saves/
 .DS_Store
+dist/
+scripts/
+scripts/
+backup/
+.envrc
