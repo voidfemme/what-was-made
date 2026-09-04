@@ -179,18 +179,6 @@ file = "mods/attributefix.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/better-combat-nbt-fix.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/better-combat-reach-fix.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/better-combat.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/biofactory.pw.toml"
 metafile = true
 
