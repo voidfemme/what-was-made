@@ -1,0 +1,13 @@
+name = "Mc2Discord"
+filename = "mc2discord-forge-1.20.1-4.3.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/Cfbcv7uF/versions/hwy56smj/mc2discord-forge-1.20.1-4.3.0.jar"
+hash-format = "sha512"
+hash = "bdb76e5e1ddebe4e230be50e3eadb8e90c588c7cbb4ec4bfdea21084bf55c914976346df3974c821cf6561a84dc09e8b24e7f8fd5398699816a2960070492314"
+
+[update]
+[update.modrinth]
+mod-id = "Cfbcv7uF"
+version = "hwy56smj"
