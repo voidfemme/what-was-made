@@ -137,6 +137,10 @@ file = "kubejs/data/biomesoplenty/worldgen/configured_feature/blood_spring.json"
 hash = "84435c13fb0a7fd445bb0d0c48152c074ce23bbbbfa0e25eee1d35423cc34d42"
 
 [[files]]
+file = "kubejs/data/ftbultimine/tags/blocks/block_whitelist.json"
+hash = "e72e526173415faa633ba70ce99c432457a78f7b070cd6c0a1f11fa161569b99"
+
+[[files]]
 file = "kubejs/data/minecraft/tags/blocks/animals_spawnable_on.json"
 hash = "7e8fc0c71f44ddc123ca3dc36a6d81d9d56880a6da9473edee111c9535d8f68d"
 
@@ -632,6 +636,16 @@ metafile = true
 [[files]]
 file = "mods/the-lost-cities.pw.toml"
 hash = "3218a0eace42d8adfaa5a94b2ed812217b67eb9401e9fecc40da8bb11d4e0e13"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "20beda5f9b049a2352334a0f8dd8de122e7399f8a446d8f78aeecba85d99bbdc"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "113533d8c1deb0d31e37ef95b47e3a34f84556aabdb5da710e915b3b20153470"
 metafile = true
 
 [[files]]
