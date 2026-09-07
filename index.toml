@@ -555,6 +555,11 @@ hash = "d8aa111370bf9d4c13e0416b2d9c7991091f9c8ea87c1d12dfd9ec1231cfdbfc"
 metafile = true
 
 [[files]]
+file = "mods/rapid-leaf-decay.pw.toml"
+hash = "d3d5efd34f6882d5447ac51069506077fb97f6d2adfd7a29af4a803e8158f026"
+metafile = true
+
+[[files]]
 file = "mods/rhino.pw.toml"
 hash = "8f22a494ca593926483a67ff18cd86134e82aa258790daffe3ee5d0fe6730b27"
 metafile = true

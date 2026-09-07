@@ -1,0 +1,13 @@
+name = "Rapid Leaf Decay"
+filename = "RapidLeafDecay-1.20.1-2.0.2.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/jSQXzmcf/versions/4HT3hgJf/RapidLeafDecay-1.20.1-2.0.2.jar"
+hash-format = "sha512"
+hash = "d2bd65ecb69ee855173500205dd70e48ffe243867cc3b35dce4ad4361da303b345b30da012e9b3aeb372162247e9ce35ab30da1f2ab015c3a8f00c78453e9254"
+
+[update]
+[update.modrinth]
+mod-id = "jSQXzmcf"
+version = "4HT3hgJf"
