@@ -84,6 +84,8 @@ mods/evilcraft.pw.toml
 mods/fastload.pw.toml
 mods/ferrite-core.pw.toml
 mods/fps-reducer.pw.toml
+mods/ftb-library-forge.pw.toml
+mods/ftb-ultimine-forge.pw.toml
 mods/fungal-infectionspore.pw.toml
 mods/fusion-connected-textures.pw.toml
 mods/fzzy-config.pw.toml
@@ -116,7 +118,6 @@ mods/mru.pw.toml
 mods/no-chat-reports.pw.toml
 mods/occultism-kubejs.pw.toml
 mods/occultism.pw.toml
-mods/ore-vein-miner.pw.toml
 mods/patchouli.pw.toml
 mods/paucal.pw.toml
 mods/pehkui.pw.toml
@@ -136,6 +137,5 @@ mods/sound-physics-remastered.pw.toml
 mods/supermartijn642s-config-lib.pw.toml
 mods/terrablender.pw.toml
 mods/the-lost-cities.pw.toml
-mods/tree-harvester.pw.toml
 packstamp.txt
 prism-prelaunch.sh
