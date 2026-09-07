@@ -10,7 +10,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = ".published-files"
-hash = "0e9e22a921523d06dbfe7ae442eb29a4008a43c4c301aa749697649d16951ec3"
+hash = "672ccc9ffb4ddb0f077010474b6109bb3bb84c1a9d573a1d716fb62c52886af6"
 
 [[files]]
 file = "config/alexsmobs.toml"
@@ -636,7 +636,7 @@ metafile = true
 
 [[files]]
 file = "packstamp.txt"
-hash = "b04725d2cd34977bf8adc16a1058bf70bbedfc811d27284611a2215cffa757e7"
+hash = "f202816af578834977b1f1348cd8b1e06a58c4c03597d00e555b67432ab26111"
 
 [[files]]
 file = "prism-prelaunch.sh"
