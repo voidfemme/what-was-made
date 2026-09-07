@@ -1,6 +1,8 @@
 pack.toml
 index.toml
 .githooks/pre-commit
+.nojekyll
+.published-files
 config/alexsmobs.toml
 config/canary.properties
 config/sporeconfig.toml
@@ -102,6 +104,7 @@ mods/lost-cities-modern-tweaks.pw.toml
 mods/lostcitiesfilter.pw.toml
 mods/make_bubbles_pop.pw.toml
 mods/malum.pw.toml
+mods/mc2discord.pw.toml
 mods/memoryleakfix.pw.toml
 mods/mob-grinding-utils.pw.toml
 mods/mob-player-animator.pw.toml
