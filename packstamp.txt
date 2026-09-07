@@ -1,5 +1,5 @@
 Bio Magic 0.1.0
-build 92d7da32c7e3
-commit 92d7da32c7e3dc970603e68821eed56b8d610641
+build a7ced35bbca3
+commit a7ced35bbca316fd2fcf73ad90fd718923ff6630
 
 Paste this whole file into any bug report.
