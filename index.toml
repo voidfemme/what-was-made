@@ -631,7 +631,7 @@ metafile = true
 
 [[files]]
 file = "packstamp.txt"
-hash = "64b00b227bd7fb973e837fb7f9d6f109e9e01d42dc938051f28635a41ee57cf6"
+hash = "9958fa3b21fd1dfd42fd310ff8c5ddd2a2337002aad284d8061a075f77213c5e"
 
 [[files]]
 file = "prism-prelaunch.sh"
