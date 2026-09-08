@@ -14,7 +14,7 @@ hash = "672ccc9ffb4ddb0f077010474b6109bb3bb84c1a9d573a1d716fb62c52886af6"
 
 [[files]]
 file = "config/alexsmobs.toml"
-hash = "23e36ed34b283789d8d2caaaa822d4e8ea376c830d03f4b3f2fc9e08a402e82d"
+hash = "5fa263bc21e5e4c09aa0d54783e130b27364fd1181fcc6dae043fc00c1d72c62"
 
 [[files]]
 file = "config/canary.properties"
@@ -138,7 +138,7 @@ hash = "84435c13fb0a7fd445bb0d0c48152c074ce23bbbbfa0e25eee1d35423cc34d42"
 
 [[files]]
 file = "kubejs/data/ftbultimine/tags/blocks/block_whitelist.json"
-hash = "e72e526173415faa633ba70ce99c432457a78f7b070cd6c0a1f11fa161569b99"
+hash = "1f4ff2af320ac0e1c14f49c79c558547bfba90fb65f1f25f1d147d31ce838c0e"
 
 [[files]]
 file = "kubejs/data/minecraft/tags/blocks/animals_spawnable_on.json"
@@ -211,6 +211,10 @@ hash = "3ef9f96ad92a689be35eae9bfb8c36bc0e5a99feedb238d308c4042a02795f81"
 [[files]]
 file = "kubejs/server_scripts/biomagic_fixes.js"
 hash = "e86cc60b652cf95470797ef54bf86e7c41c1efbafe381c93a4f6a4b46d70d0e1"
+
+[[files]]
+file = "kubejs/server_scripts/biomagic_gamerules.js"
+hash = "d5b36be00804416c001db8d27193069183ab9d0d9a7690402a616ece85414362"
 
 [[files]]
 file = "kubejs/server_scripts/biomagic_invariants.js"
@@ -316,6 +320,11 @@ metafile = true
 [[files]]
 file = "mods/controlling.pw.toml"
 hash = "ffd7117694460c548e07eab4ed8b1fa59568e5977b6c7876570b7778e0aac095"
+metafile = true
+
+[[files]]
+file = "mods/coolcatlib.pw.toml"
+hash = "e01cf1d750930d70aa6af7ce7e9143c12e46aff2c93a2bd01aeb1d2d284c31d6"
 metafile = true
 
 [[files]]
@@ -636,6 +645,11 @@ metafile = true
 [[files]]
 file = "mods/the-lost-cities.pw.toml"
 hash = "3218a0eace42d8adfaa5a94b2ed812217b67eb9401e9fecc40da8bb11d4e0e13"
+metafile = true
+
+[[files]]
+file = "mods/ultimine-addition.pw.toml"
+hash = "b517fba631e103e679e19919644adbde3a10c2d221ad690526345409cd1e9742"
 metafile = true
 
 [[files]]
