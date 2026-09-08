@@ -323,11 +323,6 @@ hash = "ffd7117694460c548e07eab4ed8b1fa59568e5977b6c7876570b7778e0aac095"
 metafile = true
 
 [[files]]
-file = "mods/coolcatlib.pw.toml"
-hash = "e01cf1d750930d70aa6af7ce7e9143c12e46aff2c93a2bd01aeb1d2d284c31d6"
-metafile = true
-
-[[files]]
 file = "mods/create.pw.toml"
 hash = "90a3e19aea7e9eb55d12e2d0a95de343981123f0da6bcdaa4e81792087419d8c"
 metafile = true
@@ -645,11 +640,6 @@ metafile = true
 [[files]]
 file = "mods/the-lost-cities.pw.toml"
 hash = "3218a0eace42d8adfaa5a94b2ed812217b67eb9401e9fecc40da8bb11d4e0e13"
-metafile = true
-
-[[files]]
-file = "mods/ultimine-addition.pw.toml"
-hash = "b517fba631e103e679e19919644adbde3a10c2d221ad690526345409cd1e9742"
 metafile = true
 
 [[files]]
