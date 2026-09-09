@@ -558,6 +558,11 @@ hash = "aefc16d6520594132ef6e524598db1cbe752e55b6d13a178c52c4d70863080e6"
 metafile = true
 
 [[files]]
+file = "mods/platform.pw.toml"
+hash = "c1c2388e4321bd322cb3dec7a5b33fa11747b4c6ce50a96f5921c3248c028639"
+metafile = true
+
+[[files]]
 file = "mods/playeranimator.pw.toml"
 hash = "d8aa111370bf9d4c13e0416b2d9c7991091f9c8ea87c1d12dfd9ec1231cfdbfc"
 metafile = true
@@ -640,6 +645,11 @@ metafile = true
 [[files]]
 file = "mods/the-lost-cities.pw.toml"
 hash = "3218a0eace42d8adfaa5a94b2ed812217b67eb9401e9fecc40da8bb11d4e0e13"
+metafile = true
+
+[[files]]
+file = "mods/vanillabackport.pw.toml"
+hash = "2d2fabb8fbc36ceb43f3c587bfc8b8ba7ddd3b4ad05f81e6c56da565883d4be8"
 metafile = true
 
 [[files]]
