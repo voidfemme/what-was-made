@@ -29,6 +29,10 @@ file = "config/sporedata.toml"
 hash = "d1d474844aaadb8cc415bb775d90222acda453e471a233ee191655465b500daf"
 
 [[files]]
+file = "defaultconfigs/lostcities-server.toml"
+hash = "b13e73e2e6129b6849d44479c7ad5cbb9e11bc15ef6ca4700b60dde41c6994c5"
+
+[[files]]
 file = "kubejs/data/biomagic/forge/biome_modifier/visceral_heap_biomancy_flesh.json"
 hash = "246a11699ad27535268f8f08a337930a6ff5071a44bb5579b44f2cc341ef2e27"
 
