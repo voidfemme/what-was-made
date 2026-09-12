@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "_comment": "Optional entity filter for a ward's 'entities' section. The smoke test deliberately omits the filter so EVERYTHING is repelled and you can test with a zombie rather than hunting for Spore mobs. 'required: false' means unknown ids are skipped instead of erroring.",
+  "values": [
+    { "id": "spore:inf_human", "required": false },
+    { "id": "spore:inf_villager", "required": false },
+    { "id": "spore:inf_pillager", "required": false },
+    { "id": "spore:inf_husk", "required": false },
+    { "id": "spore:inf_drowned", "required": false },
+    { "id": "spore:mound", "required": false },
+    { "id": "spore:knight", "required": false },
+    { "id": "spore:griefer", "required": false }
+  ]
+}

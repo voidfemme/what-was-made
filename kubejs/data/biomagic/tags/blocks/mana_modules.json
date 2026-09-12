@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "_comment": "Blocks that count as upgrades around a Botania ward. Placeholder set — the point right now is that the module scan has something to find so the battery can prove the scan works.",
+  "values": [
+    { "id": "botania:mana_spreader", "required": false },
+    { "id": "botania:mana_pylon", "required": false },
+    { "id": "botania:runic_altar", "required": false },
+    { "id": "botania:livingrock", "required": false }
+  ]
+}

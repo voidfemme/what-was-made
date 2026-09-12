@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "_comment": "What a perimeter is allowed to convert. Referenced by the 'source' field of a perimeter spec. If this tag does not exist, a perimeter matches nothing and silently does nothing.",
+  "values": [
+    "minecraft:stone", "minecraft:deepslate", "minecraft:andesite",
+    "minecraft:diorite", "minecraft:granite", "minecraft:tuff",
+    "minecraft:dirt", "minecraft:coarse_dirt", "minecraft:rooted_dirt",
+    "minecraft:grass_block", "minecraft:podzol", "minecraft:mycelium",
+    "minecraft:sand", "minecraft:red_sand", "minecraft:gravel", "minecraft:clay",
+    "minecraft:sandstone", "minecraft:red_sandstone",
+    "minecraft:netherrack", "minecraft:end_stone",
+    { "id": "spore:infested_stone", "required": false },
+    { "id": "spore:infested_dirt", "required": false },
+    { "id": "spore:infested_deepslate", "required": false },
+    { "id": "spore:infested_sand", "required": false },
+    { "id": "spore:infested_gravel", "required": false },
+    { "id": "spore:infested_clay", "required": false }
+  ]
+}

@@ -85,6 +85,10 @@ file = "kubejs/data/biomagic/functions/testpad_clear.mcfunction"
 hash = "5966ecc184554f9325cb65534494e0da51f2abe064fdb4648212ce3c922f468c"
 
 [[files]]
+file = "kubejs/data/biomagic/tags/blocks/cradle_modules.json"
+hash = "a98f4894937fb8589b1bf2456dbb0194631186fe80fd32e7b42cbf929489ea8b"
+
+[[files]]
 file = "kubejs/data/biomagic/tags/blocks/infectable_masonry.json"
 hash = "50b572ba4dad18fad4f27f556539973ae9cfc75c00dc96b6da3c55f7b437faa3"
 
@@ -99,6 +103,18 @@ hash = "92207de447393c45639ce2964ec0daf97870dfdd736a25da8508ed47243d0d8c"
 [[files]]
 file = "kubejs/data/biomagic/tags/blocks/infection_immune.json"
 hash = "72bcb3273c7a282e7e17f7b64490a97de0609599bcef079b1a2cb9b8e85d025d"
+
+[[files]]
+file = "kubejs/data/biomagic/tags/blocks/mana_modules.json"
+hash = "e8f6b287a35b085a336a2270c27884f5090e75821375324fbab44725b2231784"
+
+[[files]]
+file = "kubejs/data/biomagic/tags/blocks/natural_terrain.json"
+hash = "64c8c4fe1e6f18b331954f697f7f9f072444789323b3c98ccc74859a07ba736c"
+
+[[files]]
+file = "kubejs/data/biomagic/tags/entity_types/warded_against.json"
+hash = "e954650789d22046d2479f1439a8a14f5bd47c74f9e841c43d2c450675e3dca4"
 
 [[files]]
 file = "kubejs/data/biomagic/worldgen/configured_feature/buried_cradle.json"
@@ -260,6 +276,10 @@ metafile = true
 file = "mods/biofactory.pw.toml"
 hash = "1935ccd9248cc7ea2287f0f78214ecf11280f5a1b197e1f5257c2119a80b17cc"
 metafile = true
+
+[[files]]
+file = "mods/biomagic-0.1.0+mc1.20.1.jar"
+hash = "d18ffb50e42e88bef8d3fa8b7f88a50139a45a3791b601fe068e3183d7a0caa6"
 
 [[files]]
 file = "mods/biomancy.pw.toml"

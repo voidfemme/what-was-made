@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "_comment": "Blocks that count as upgrades around a Primordial Cradle. 'required: false' means an id from a mod you haven't installed is skipped rather than erroring the whole tag — which is what makes this file safe to ship while you're still deciding which mods stay in the pack.",
+  "values": [
+    { "id": "biomancy:flesh_veins", "required": false },
+    { "id": "biomancy:malignant_flesh", "required": false },
+    { "id": "biomancy:fleshkin_chest", "required": false },
+    { "id": "biomancy:primal_flesh", "required": false },
+    { "id": "biomancy:ossified_flesh", "required": false }
+  ]
+}
