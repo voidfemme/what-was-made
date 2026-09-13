@@ -1,0 +1,106 @@
+{
+  "_comment": "Three trees, cylinder repulsion at 100 blocks as requested. Note the spread radius is deliberately much smaller than the entity radius — see WARDS-NOTES.md for why; raising it is a one-line change if you want it.",
+
+  "biomancy:primordial_cradle": {
+    "priority": 20,
+    "tick_interval": 40,
+    "spread":   { "shape": "cylinder", "radius": 32, "height": 24 },
+    "entities": {
+      "shape": "cylinder", "radius": 100, "height": 40,
+      "filter": "#biomagic:warded_against",
+      "effects": [
+        { "type": "repel", "speed": 1.25, "interval": 40 },
+        { "type": "clear_target", "interval": 40 }
+      ]
+    },
+    "negate": { "effects": ["spore:mycelium_ef", "spore:marker"] },
+    "modules": { "scan": { "shape": "sphere", "radius": 6 } },
+    "perimeter": {
+      "source": "#biomagic:natural_terrain",
+      "thickness": 1.0, "samples_per_pass": 10, "interval": 120,
+      "blocks": [
+        { "block": "biomancy:flesh_block", "weight": 5 },
+        { "block": "biomancy:primal_flesh_block", "weight": 2 }
+      ]
+    }
+  },
+
+  "malum:runewood_totem_base": {
+    "priority": 10,
+    "tick_interval": 40,
+    "spread":   { "shape": "cylinder", "radius": 24, "height": 20 },
+    "entities": {
+      "shape": "cylinder", "radius": 100, "height": 40,
+      "filter": "#biomagic:warded_against",
+      "effects": [
+        { "type": "repel", "speed": 1.2, "interval": 40 },
+        { "type": "clear_target", "interval": 40 }
+      ]
+    },
+    "negate": { "effects": ["spore:mycelium_ef"] },
+    "modules": { "column_above": true, "scan": { "height": 16 } },
+    "perimeter": {
+      "source": "#biomagic:natural_terrain",
+      "thickness": 1.0, "samples_per_pass": 8, "interval": 140,
+      "blocks": [
+        { "block": "malum:runewood_planks", "weight": 4 },
+        { "block": "minecraft:calcite", "weight": 6 }
+      ]
+    }
+  },
+
+  "malum:soulwood_totem_base": {
+    "priority": 15,
+    "tick_interval": 40,
+    "spread":   { "shape": "cylinder", "radius": 40, "height": 28 },
+    "entities": {
+      "shape": "cylinder", "radius": 100, "height": 40,
+      "filter": "#biomagic:warded_against",
+      "effects": [
+        { "type": "repel", "speed": 1.4, "interval": 40 },
+        { "type": "clear_target", "interval": 40 },
+        { "type": "effect", "effect": "minecraft:weakness",
+          "amplifier": 1, "duration": 120, "interval": 60 }
+      ]
+    },
+    "negate": {
+      "effects": ["spore:mycelium_ef", "spore:marker"],
+      "transform": { "spore:corrosion": "minecraft:poison" }
+    },
+    "modules": { "column_above": true, "scan": { "height": 16 } },
+    "perimeter": {
+      "source": "#biomagic:natural_terrain",
+      "thickness": 1.0, "samples_per_pass": 10, "interval": 120,
+      "blocks": [
+        { "block": "malum:soulwood_planks", "weight": 3 },
+        { "block": "minecraft:blackstone", "weight": 6 },
+        { "block": "malum:brilliance", "weight": 1 }
+      ]
+    }
+  },
+
+  "botania:mana_pool": {
+    "_comment": "Botania placeholder. A mana pool is the obvious ward because it has a mana value to spend, which makes upkeep expressible without new mechanism. Swap for bellethorn/runic altar/alfheim portal once you have played the loop.",
+    "priority": 10,
+    "tick_interval": 40,
+    "spread":   { "shape": "cylinder", "radius": 24, "height": 20 },
+    "entities": {
+      "shape": "cylinder", "radius": 100, "height": 40,
+      "filter": "#biomagic:warded_against",
+      "effects": [
+        { "type": "repel", "speed": 1.2, "interval": 40 },
+        { "type": "clear_target", "interval": 40 }
+      ]
+    },
+    "negate": { "effects": ["spore:mycelium_ef"] },
+    "modules": { "scan": { "shape": "sphere", "radius": 8 } },
+    "perimeter": {
+      "source": "#biomagic:natural_terrain",
+      "thickness": 1.0, "samples_per_pass": 8, "interval": 140,
+      "blocks": [
+        { "block": "botania:livingrock", "weight": 6 },
+        { "block": "botania:shimmerrock", "weight": 1 }
+      ]
+    }
+  }
+}

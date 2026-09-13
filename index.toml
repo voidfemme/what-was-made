@@ -37,6 +37,10 @@ file = "kubejs/data/biomagic/biomagic-wards/cradle.json"
 hash = "569781179e1ae80cc5087a9252d5332c6cff053667919087964310d702c9447c"
 
 [[files]]
+file = "kubejs/data/biomagic/biomagic-wards/malum_totem.json"
+hash = "03bed8d92524deb401d987a91579cdb79aa72921e9b86f04ad118c8a4b9fbfa7"
+
+[[files]]
 file = "kubejs/data/biomagic/forge/biome_modifier/visceral_heap_biomancy_flesh.json"
 hash = "246a11699ad27535268f8f08a337930a6ff5071a44bb5579b44f2cc341ef2e27"
 
