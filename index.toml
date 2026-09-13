@@ -257,14 +257,6 @@ file = "kubejs/server_scripts/biomagic_visceral_heap.js"
 hash = "661c41d648bbea4cd59ed6b450a645a2ddf006f96cd52fdbcca78d16f89d8826"
 
 [[files]]
-file = "kubejs/server_scripts/biomancy_ward.js"
-hash = "1c786c2ecd807d956b758d10ba2b783d90b2c87cb3292d413123d6177ae87d63"
-
-[[files]]
-file = "kubejs/server_scripts/botania_ward.js"
-hash = "f9d272820c8dab27eeb9d5e16cb944e6520aaa6e3ea2fd3b27d1112b5ef396fc"
-
-[[files]]
 file = "kubejs/server_scripts/malum_ward.js"
 hash = "f9d272820c8dab27eeb9d5e16cb944e6520aaa6e3ea2fd3b27d1112b5ef396fc"
 
