@@ -1,0 +1,8 @@
+name = "Ward"
+filename = "biomagic-0.1.0+mc1.20.1.jar"
+side = "server"
+
+[download]
+url = "https://github.com/voidfemme/ward/releases/download/alpha%2F0.1.0/biomagic-0.1.0+mc1.20.1.jar"
+hash-format = "sha256"
+hash = "38847f3d79b2a3f2f1186913db96c173bdece411329cd6fdce37e320630a3814"

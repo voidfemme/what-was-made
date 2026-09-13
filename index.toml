@@ -85,6 +85,10 @@ file = "kubejs/data/biomagic/functions/testpad_clear.mcfunction"
 hash = "5966ecc184554f9325cb65534494e0da51f2abe064fdb4648212ce3c922f468c"
 
 [[files]]
+file = "kubejs/data/biomagic/functions/ward_placement.mcfunction"
+hash = "7ec9e2cb547553d07a871ce2c82eab10faa758fe1f8e3c5aea405af3dd59132a"
+
+[[files]]
 file = "kubejs/data/biomagic/tags/blocks/cradle_modules.json"
 hash = "a98f4894937fb8589b1bf2456dbb0194631186fe80fd32e7b42cbf929489ea8b"
 
@@ -251,6 +255,18 @@ hash = "8767fa26713b46d9dee77d0e76883b2bae1d09d7606c0c38af22e6d34ac1039d"
 [[files]]
 file = "kubejs/server_scripts/biomagic_visceral_heap.js"
 hash = "661c41d648bbea4cd59ed6b450a645a2ddf006f96cd52fdbcca78d16f89d8826"
+
+[[files]]
+file = "kubejs/server_scripts/biomancy_ward.js"
+hash = "1c786c2ecd807d956b758d10ba2b783d90b2c87cb3292d413123d6177ae87d63"
+
+[[files]]
+file = "kubejs/server_scripts/botania_ward.js"
+hash = "f9d272820c8dab27eeb9d5e16cb944e6520aaa6e3ea2fd3b27d1112b5ef396fc"
+
+[[files]]
+file = "kubejs/server_scripts/malum_ward.js"
+hash = "f9d272820c8dab27eeb9d5e16cb944e6520aaa6e3ea2fd3b27d1112b5ef396fc"
 
 [[files]]
 file = "mods/alexs-mobs.pw.toml"
@@ -674,6 +690,11 @@ metafile = true
 [[files]]
 file = "mods/vanillabackport.pw.toml"
 hash = "2d2fabb8fbc36ceb43f3c587bfc8b8ba7ddd3b4ad05f81e6c56da565883d4be8"
+metafile = true
+
+[[files]]
+file = "mods/ward.pw.toml"
+hash = "d69c8024ac3e6a62c727cf888846cb5c638fb3cd914666c8851d64812ca4812a"
 metafile = true
 
 [[files]]
