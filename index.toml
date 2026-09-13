@@ -690,7 +690,7 @@ metafile = true
 
 [[files]]
 file = "mods/ward.pw.toml"
-hash = "d69c8024ac3e6a62c727cf888846cb5c638fb3cd914666c8851d64812ca4812a"
+hash = "a319d1d71543de4d38a49c31b8597bac9c1eb50b30402c4c868145df6e56fc75"
 metafile = true
 
 [[files]]

@@ -1,8 +1,8 @@
 name = "Ward"
-filename = "biomagic-0.1.0+mc1.20.1.jar"
-side = "server"
+filename = "biomagic-0.1.1-alpha+mc1.20.1.jar"
+side = "both"
 
 [download]
-url = "https://github.com/voidfemme/ward/releases/download/alpha%2F0.1.0/biomagic-0.1.0+mc1.20.1.jar"
+url = "https://github.com/voidfemme/ward/releases/download/alpha%2F0.1.1/biomagic-0.1.1-alpha+mc1.20.1.jar"
 hash-format = "sha256"
-hash = "38847f3d79b2a3f2f1186913db96c173bdece411329cd6fdce37e320630a3814"
+hash = "ccb16145311ffeddff713edf390f0596f7f55fc827ac333f582bbee10e2b7c49"
