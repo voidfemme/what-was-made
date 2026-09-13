@@ -33,6 +33,10 @@ file = "defaultconfigs/lostcities-server.toml"
 hash = "b13e73e2e6129b6849d44479c7ad5cbb9e11bc15ef6ca4700b60dde41c6994c5"
 
 [[files]]
+file = "kubejs/data/biomagic/biomagic-wards/cradle.json"
+hash = "569781179e1ae80cc5087a9252d5332c6cff053667919087964310d702c9447c"
+
+[[files]]
 file = "kubejs/data/biomagic/forge/biome_modifier/visceral_heap_biomancy_flesh.json"
 hash = "246a11699ad27535268f8f08a337930a6ff5071a44bb5579b44f2cc341ef2e27"
 

@@ -1,0 +1,45 @@
+{
+  "_comment": "Primordial Cradle ward. Pairs with kubejs/server_scripts/biomagic_cradle.js. Every number here is the value the ward uses WITHOUT KubeJS — the script overwrites radius, entity_radius and the perimeter result at runtime. Read these as the floor, not the design.",
+
+  "biomancy:primordial_cradle": {
+    "priority": 8,
+
+    "_tick_interval": "5 ticks, not the usual 20. The script banks a cradle's character by catching SacrificeHandler.HasModifiers while it is 1, and an offering can charge and resolve inside a single 20-tick window. This is the cost of the ward remembering what it was fed. If the cradle is the only ward in the pack ticking this fast, that is fine; if you add more, reconsider.",
+    "tick_interval": 5,
+
+    "_spread": "8 is the dormant radius — what an unroused cradle projects, and what every cradle projects with KubeJS absent. The script grows this to 10-40 once the cradle has refused an offering. Sphere rather than cylinder because a mound is not a tower.",
+    "spread": {
+      "shape": "sphere",
+      "radius": 8
+    },
+
+    "_entities": "No filter: unlike the totems, the cradle is not choosy. Spore mobs, passive animals and anything else in range are all pushed. Thematically it is not defending you, it is keeping room for itself.",
+    "entities": {
+      "shape": "sphere",
+      "radius": 5,
+      "effects": [
+        { "type": "repel", "speed": 1.2 },
+        { "type": "clear_target" }
+      ]
+    },
+
+    "_negate": "Biomancy's cradle sits at the centre of its own flesh; Spore's mycelium is a competing infection. Denying it inside the ward is the mechanical version of two systems that do not share ground.",
+    "negate": {
+      "effects": ["spore:mycelium_ef"]
+    },
+
+    "_perimeter": "Only fires once the script marks the cradle roused — it calls event.skip() while dormant, matching the feeding trials, where no cradle threw a single vine until its first rejection. With KubeJS absent this table runs unconditionally, so keep the weights modest. All four ids verified against biomancy-forge-1.20.1-2.9.0.1.",
+    "perimeter": {
+      "source": "#biomagic:natural_terrain",
+      "thickness": 1.0,
+      "samples_per_pass": 8,
+      "interval": 120,
+      "replace_air": false,
+      "blocks": [
+        { "block": "biomancy:primal_flesh", "weight": 6 },
+        { "block": "biomancy:porous_primal_flesh", "weight": 3 },
+        { "block": "biomancy:malignant_flesh_veins", "weight": 1 }
+      ]
+    }
+  }
+}
